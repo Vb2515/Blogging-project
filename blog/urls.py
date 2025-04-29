@@ -7,3 +7,5 @@ urlpatterns = [
     path('posts/<int:pk>/comment/', CommentCreateView.as_view(), name='comment-create'),
 ]
 
+
+
